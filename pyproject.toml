@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "pyo3-test"
+version = "0.1.0"
+description = ""
+authors = ["jaskij <jaskij@gmail.com>"]
+readme = "README.md"
+packages = [{include = "pyo3_test"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[tool.poetry.group.dev.dependencies]
+maturin = "^0.14.14"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
